@@ -33,3 +33,93 @@ body {
 
     padding: 40px
 }
+
+.section-title {
+    border-bottom: 2px solid black;
+}
+/* table {
+    border-spacing: 20px;
+} */
+.text {
+    width: 90%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    overflow:auto;
+	font-size: 12pt;
+
+}
+
+span.basic-info  {
+    display: inline-block;
+    width: 73%;
+    height: 200px;
+    background-color: rgb(233, 240, 243); 
+	font-size: 20pt;
+}
+
+span.image-info  {
+    vertical-align: top;
+    display: inline-block;
+    width: 140px;
+    height: 200px;
+    background-color: rgb(210, 238, 146); 
+}
+
+
+.category {
+    text-align: left;
+    font-family: sans-serif;
+	font-size: 12pt;
+}
+
+.provided-info {
+    text-align: left;
+    font-family: arial;
+	font-size: 12pt;
+}
+
+th {
+    column-width: 80pt;
+	font-size: 20pt;
+}
+
+span.timeline  {
+    vertical-align: sub;
+    display: inline-block;
+    width: 25%;
+    height:  80px;
+    padding: 5px;
+    background-color: white; 
+    border-bottom: 1px solid black; 
+}
+
+span.content-in-time  {
+    vertical-align: top;
+    display: inline-block;
+    width: 65%;
+    height:  80px;
+    padding: 5px;
+    background-color: white;
+    border-bottom: 1px solid black; 
+}
+
+.Language {
+    text-align: left;
+    font-family: sans-serif;
+	font-size: 14pt;
+    width: 300px;
+}
+
+.level {
+    text-align: left;
+    font-family: sans-serif;
+	font-size: 14pt;
+}
+
+.first-part {
+    font-weight: bolder;
+}
+
+.project {
+    border-bottom: 1px solid black; 
+}
