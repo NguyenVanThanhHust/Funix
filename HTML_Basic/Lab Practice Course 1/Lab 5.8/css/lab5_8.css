@@ -44,6 +44,7 @@ body {
     border: none;
     text-transform: uppercase;
     font-size: 20px;
+    color: #fff;
 }
 
 .add-cart:hover {
