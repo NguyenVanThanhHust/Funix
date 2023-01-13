@@ -1,0 +1,150 @@
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.cv-document {
+	box-sizing: border-box;
+	border: none;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	vertical-align: baseline;
+	text-decoration: none;
+	padding: 0;
+	width: 100%;
+	font-family: arial, sans-serif, tahoma;
+	font-size: 10pt;
+}
+
+.cv-page {
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    text-decoration: none;
+    width: 900px;
+    min-height: 900px;
+    margin: 0 auto;
+    box-shadow: 0 0 1px rgba(0,0,0,.5);
+    background-color: #fff;
+    position: relative;
+    padding: 40px;
+}
+
+.section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.name {
+    color: #0e2452;
+}
+
+.section-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    border-bottom: 2px solid;
+}
+
+.main-section-content {
+    display: inline-block;
+    background-color: rgba(172, 172, 157, 0.385);
+    margin: 40px 0 40px 0;
+    width: 70%;
+}
+
+.section-content {
+    font-size: 16px;
+}
+
+.person-image {
+    vertical-align:top;
+    display: inline-block;
+    height: 365px;
+    width: 20%;
+    background-color: rgb(199, 132, 227);
+    margin-top: 42px;
+
+}
+
+#image {
+   position: relative; 
+   margin-top: -2px;
+}
+
+.info-type {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 120px;
+    font-size: medium;
+}
+
+.info {
+    display: inline-block;
+    width: 400px;
+    font-size: medium;
+}
+
+.language {
+    display: inline-block;
+    width: 300px;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.level {
+    display: inline-block;
+    width: 200px;
+    font-size: medium;
+}
+
+.year {
+    display: inline-block;
+    width: 300px;
+    font-size: medium;
+}
+
+.cerfiticate {
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    font-size: medium;
+}
+
+.time {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.activity-info 
+{
+    border-bottom: 1px solid;
+}
+
+.activity {
+    width: 500px;
+    display: inline-block;
+}
+
+.header {
+    font-weight: bold;
+}
+
+.header-project {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.first-element {
+    display: inline;
+    font-weight: bold;
+    /* float: left; */
+}
+.second-element {
+    display: inline;
+    text-align: right;
+    /* float: right; */
+}
