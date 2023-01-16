@@ -75,10 +75,10 @@ body {
 }
 
 .info-type {
-    text-transform: uppercase;
     display: inline-block;
     width: 120px;
     font-size: medium;
+    font-weight: bold;
 }
 
 .info {

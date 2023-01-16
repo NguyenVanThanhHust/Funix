@@ -4,12 +4,6 @@
     color: red;
   }
 
-  .thick-green-border{
-    border-width:10px;
-    border-style: solid;
-    border-color: green;
-  }
-
   h2 {
     font-family: Lobster, monospace;
   }
@@ -21,6 +15,12 @@
 
   .smaller-image {
     width: 100px;
+  }
+
+  .thick-green-border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: green;
   }
 </style>
 

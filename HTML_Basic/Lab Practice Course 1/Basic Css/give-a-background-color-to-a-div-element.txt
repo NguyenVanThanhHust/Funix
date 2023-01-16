@@ -24,8 +24,7 @@
     width: 100px;
   }
 
-  .silver-background
-  {
+  .silver-background {
     background-color:silver;
   }
 </style>
