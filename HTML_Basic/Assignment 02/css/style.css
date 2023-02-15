@@ -17,3 +17,142 @@ section > .container{
 #nav-bar {
     text-align: center;
 }
+
+#target {
+    background-color:rgb(164, 171, 172);
+}
+#target-text {
+    margin-left:100px;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.info-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto-fill auto-fill;
+}
+
+h1 {
+    font-size: 30px;
+}
+#main-body {
+    display: grid;
+    grid-row: repeat(6, auto-fill);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.center-info {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#about {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.sub-grid {
+    border: 0px solid rgba(0, 0, 0, 0.8);
+}
+
+#job-info {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.column {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.title-item {
+    display: list-item;
+    list-style-type: disc;
+    list-style-position: inside;
+    font-size: 28px;
+}
+
+.time-stamp {
+    font-style: italic;
+    padding-left: 30px;
+}
+
+li:before {
+    content: "- ";
+}
+
+li {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+#hobbies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0px 30px 0px 30px;
+}
+
+.hobby {
+    font-size: 1.6em;
+    border-color: red;
+    margin: 20px 0px 20px 0px;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#language {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.each-language {
+    margin-left: 10px;
+}
+.level-pass {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+.level {
+    background: gray;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+
+#certificatate-content {
+    display: grid;   
+}
+
+.cerf-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.each-cerf {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.project-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}

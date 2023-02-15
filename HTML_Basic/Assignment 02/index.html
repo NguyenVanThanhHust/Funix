@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+-<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -9,92 +9,236 @@
 	<title>Assignment 02</title>
 </head>
 <body>
-	<div id="banner" style="padding: 50px">
-		<h1>Nguyễn Văn A</h1>
-		<span>Full Stack Developer</span>
+	<div class="big-grid-item" id="banner" style="padding: 50px">
+		<img src="./images/banner.jpg" height="180px" width="250px" alt="banner-image" style="width:100%;">
+		<div class="center-info">
+			<h1>Nguyễn Văn Thành</h1>
+			<span>Full Stack Developer</span>
+		</div>
+	</div>
+	<div class="big-grid-item" id="main-body">
+		<div class="grid-item"  id="navigation-bar">
+			<section id="nav-bar">
+				<nav class="container">
+					<a href="#nav-bar">Thông tin <i class="icon-user"></i></a>
+					<a href="#about">Lý lịch <i class="icon-doc-text-inv"></i></a>
+					<a href="#certificate">Chứng chỉ <td><i class="icon-mail-alt"></i></td></a>
+					<a href="#project">Dự Án <td><i class="icon-star-1"></i></td></a>
+				</nav>
+			</section>
+		</div>
+	
+		<div class="grid-item" id="basic-info">
+			<section id="about" class="bg-grey">
+				<div class="sub-grid" id="target" >
+					<div id="target-text">
+						<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+						<p>
+							Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh
+							Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị
+							trí <b>Fullstack Developer</b>, có thể vận dụng những kiến
+							thức đã được trau dồi và không ngừng học hỏi để phát triển
+							bản thân, cũng như hoàn thành tốt nhất công việc được giao.
+						</p>
+					</div>
+				</div>
+				<div class="sub-grid" id="personal-info" style="background-color:rgb(136, 143, 144);">
+					<h1 class="section-title">Thông tin cá nhân</h1>
+					<ul class="mt-40 info">
+						<li class="info-item"><span>Giới tính</span> : Nam</li>
+						<li class="info-item"><span>Ngày sinh</span> : 06/01/1995</li>
+						<li class="info-item"><span>Điện thoại</span> : (+84) 817738102</li>
+						<li class="info-item"><span>Email</span> : thanhnvfx18140@funix.edu.vn@funix.edu.vn</li>
+						<li class="info-item"><span>Địa chỉ</span> : Cầu Giấy, Hà Nội</li>
+						<li class="info-item"><span>Website</span> : https://nguyenvanthanhhust.github.io/</li>
+						<li class="info-item">
+							<a href="https://www.facebook.com/Nguyen.Van.Thanh.Hust"><td><i class="icon-facebook"></i></td></a> 
+							<a href="https://www.facebook.com/Nguyen.Van.Thanh.Hust"><td><i class="icon-twitter"></i></td></a>
+							<a href="https://www.facebook.com/Nguyen.Van.Thanh.Hust"><td><td><i class="icon-gplus"></i></td></a>
+							<a href="https://www.facebook.com/Nguyen.Van.Thanh.Hust"><td><i class="icon-linkedin"></i></td></a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</div>
+	
+		<div class="grid-item" id="job-information">
+			<section id="job-info">
+				<div class="column">
+					<div style="margin-top: 20px">
+						<h1>Kinh nghiệm <td><i class="ic-toolbox"></i></td></h1>
+						<div class="work-item">
+							<div class="title-item">AI Engineer - Samsung SDSRV</div>
+							<div class="time-stamp">05/2022-Hiện tại</div>
+							<ul>
+								<li>Phân tích thiết kế hệ thống multi-camera streaming</li>
+								<li>Phát triến mô hình nhận diện con người qua hình ảnh</li>
+								<li>Tối ưu hệ thống</li>
+							</ul>
+						</div>
+						<div class="work-item">
+							<div class="title-item">AI Engineer - Viện nghiên cứu VinAI</div>
+							<div class="time-stamp">04/2019-04/2022</div>
+							<ul>
+								<li>Phát triển mô hình nhận diện hành động của tay</li>
+								<li>Phát triến mô hình đếm vật thể nhỏ</li>
+								<li>Phát triến mô hình nhận diện vạch kẻ đường</li>
+							</ul>
+						</div>
+
+					</div>
+					<div style="margin-top: 20px">
+						<h1>Sở thích <td><i class="ic-telescope"></i></td></h1>
+						<div id="hobbies">
+							<td><i class="hobby ic-megaphone"></i></td>
+							<td><i class="hobby ic-strategy"></i></td>
+							<td><i class="hobby ic-hotairballoon"></i></td>
+							<td><i class="hobby ic-basket"></i></td>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div style="margin-top: 20px">
+						<h1>Học vấn <td><i class="ic-pencil"></i></td></h1>
+						<div class="work-item">
+							<div class="title-item">Funix</div>
+							<div class="time-stamp">01/2023-07/2023</div>
+							<ul>
+								<li>Tốt nghiệp chứng chỉ Fullstack Funix</li>
+								<li>GPA 9.0/10.0</li>
+							</ul>
+						</div>
+						<div class="work-item">
+							<div class="title-item">Đại học Bách khoa Hà Nội</div>
+							<div class="time-stamp">09/2014-04/2019</div>
+							<ul>
+								<li>Chuyên ngành: Cơ điện tử</li>
+								<li>GPA 3.3/4.0</li>
+							</ul>
+						</div>
+					</div>
+					<div style="margin-top: 20px">
+						<h1>Ngôn ngữ <td><i class="ic-mic"></i></td></h1>
+						<div id="language">
+							<div class="each-language">
+								<div>english</div>
+								<span class="level-pass"></span>									
+								<span class="level-pass"></span>									
+								<span class="level"></span>									
+							</div>
+							<div class="each-language">
+								<div>French</div>
+								<span class="level-pass"></span>									
+								<span class="level"></span>									
+								<span class="level"></span>	
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="column">
+					<div style="margin-top: 20px">
+						<h1>Hoạt động <td><i class="ic-toolbox"></i></td></h1>
+						<div class="work-item">
+							<div class="title-item">Đại học Bách khoa Hà Nội</div>
+							<div class="time-stamp">09/2014-04/2019</div>
+							<ul>
+								<li>Chuyên ngành: Cơ điện tử</li>
+								<li>GPA 3.3/4.0</li>
+							</ul>
+						</div>
+					</div>
+					<div style="margin-top: 20px">
+						<h1>Kỹ năng <td><i class="ic-tools-2"></i></td></h1>
+						<div id="language">
+							<div class="each-language">
+								<div>english</div>
+								<span class="level-pass"></span>									
+								<span class="level-pass"></span>									
+								<span class="level"></span>									
+							</div>
+							<div class="each-language">
+								<div>French</div>
+								<span class="level-pass"></span>									
+								<span class="level"></span>									
+								<span class="level"></span>	
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+
+				</div>
+			</section>
+		</div>
+	
+		<div class="grid-item" id="certi">
+			<section id="certificate-title" class="bg-grey">
+				<div class="container">
+					<h1 class="section-title">
+						Chứng chỉ - Giải thưởng
+					</h1>
+				</div>
+			</section>
+			<div id="certificatate-content">
+				<div class="cerf-row">
+					<div class="each-cerf">
+						<div>
+							<img src="./images/banner.jpg" height="180px" width="250px" alt="banner-image" style="width:100%;">
+						</div>
+						<div>
+							some text for certificatate
+						</div>
+					</div>
+					<div class="each-cerf">
+						<div>
+							<img src="./images/banner.jpg" height="180px" width="250px" alt="banner-image" style="width:100%;">
+						</div>
+						<div>
+							some text for certificatate
+						</div>
+					</div>
+				</div>
+				<div class="cerf-row">
+					<div class="each-cerf">
+						<div>
+							<img src="./images/banner.jpg" height="180px" width="250px" alt="banner-image" style="width:100%;">
+						</div>
+						<div>
+							some text for certificatate
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="grid-item" id="experience">
+			<section id="project">
+				<div class="container">
+					<h1 class="section-title">
+						Dự án
+					</h1>
+				</div>
+			</section>
+			<div id="project-content">
+				
+			</div>
+		</div>
+	
+		<div class="grid-item" id="footer">
+			<section id="footer" class="bg-grey">
+				<div class="container">
+					<ul>
+						<li>Facebook</li>
+						<li>Linkedin</li>
+						<li>Github</li>
+					</ul>
+				</div>
+			</section>
+		</div>
 	</div>
 
-	<section id="nav-bar">
-		<nav class="container">
-			<a href="#">Thông tin</a>
-			<a href="#">Lý lịch</a>
-			<a href="#">Chứng chỉ</a>
-			<a href="#">Dự Án</a>
-		</nav>
-	</section>
 
-	<section id="about" class="bg-grey">
-		<div class="container">
-			<div id="target">
-				<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
-				<p>
-					Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh
-					Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị
-					trí <b>Fullstack Developer</b>, có thể vận dụng những kiến
-					thức đã được trau dồi và không ngừng học hỏi để phát triển
-					bản thân, cũng như hoàn thành tốt nhất công việc được giao.
-				</p>
-			</div>
-			<div id="personal-info" style="margin-top: 20px">
-				<h1 class="section-title">Thông tin cá nhân</h1>
-				<ul class="mt-40 info">
-					<li><span>Giới tính</span> : Nam</li>
-					<li><span>Ngày sinh</span> : 19/05/2000</li>
-					<li><span>Điện thoại</span> : (+84) 912398xxx</li>
-					<li><span>Email</span> : sinhvien@funix.edu.vn</li>
-					<li><span>Địa chỉ</span> : Số 10, đường 10, Hà Nội</li>
-					<li><span>Website</span> : https://abc.tech</li>
-				</ul>
-			</div>
-		</div>
-	</section>
 
-	<section id="job-info">
-		<div class="container">
-			<div style="margin-top: 20px">
-				<h1>Kinh nghiệm</h1>
-			</div>
-			<div style="margin-top: 20px">
-				<h1>Học vấn</h1>
-			</div>
-			<div style="margin-top: 20px">
-				<h1>Hoạt động</h1>
-			</div>
-			<div style="margin-top: 20px">
-				<h1>Sở thích</h1>
-			</div>
-			<div style="margin-top: 20px">
-				<h1>Ngôn ngữ</h1>
-			</div>
-			<div style="margin-top: 20px">
-				<h1>Kỹ năng</h1>
-			</div>
-		</div>
-	</section>
-	<section id="certificate" class="bg-grey">
-		<div class="container">
-			<h1 class="section-title">
-				Chứng chỉ - Giải thưởng
-			</h1>
-		</div>
-	</section>
-
-	<section id="project">
-		<div class="container">
-			<h1 class="section-title">
-				Dự án
-			</h1>
-		</div>
-	</section>
-
-	<section id="footer" class="bg-grey">
-		<div class="container">
-			<ul>
-				<li>Facebook</li>
-				<li>Linkedin</li>
-				<li>Github</li>
-			</ul>
-		</div>
-	</section>
 </body>
 </html>
