@@ -10,7 +10,6 @@ section > .container{
     width: 1170px;
     margin: auto;
     display: block;
-
     padding: 30px 50px;
 }
 
@@ -18,9 +17,18 @@ section > .container{
     text-align: center;
 }
 
+#banner {
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    width: 80%;
+    height: 400px;
+}
+
 #target {
     background-color:rgb(164, 171, 172);
 }
+
 #target-text {
     margin-left:100px;
 }
@@ -43,6 +51,7 @@ body {
 h1 {
     font-size: 30px;
 }
+
 #main-body {
     display: grid;
     grid-row: repeat(6, auto-fill);
@@ -63,6 +72,7 @@ h1 {
 #about {
     display: grid;
     grid-template-columns: 50% 50%;
+    margin-right: 20px;
 }
 
 .sub-grid {
@@ -106,12 +116,18 @@ li {
 }
 
 .hobby {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
     font-size: 1.6em;
     border-color: red;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 20px 20px 20px;
     border: 1px solid blue;
     background-color: white;
     border-radius: 50%;
+    aspect-ratio : 1 / 1;
+    /* border-radius: 50px; */
 }
 
 #language {
@@ -152,7 +168,37 @@ li {
     grid-template-columns: 1fr 2fr;
 }
 
-.project-content {
+.project-section-title {
+    margin-bottom: 40px;
+    text-align: center;
+
+}
+
+#project-content {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+}
+
+.each-project {
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 3fr 2fr 4fr;
+}
+
+.image-project {
+    max-width:90%;
+    height: auto;
+}
+
+.project-base-info {
+    display: grid;
+    border: 1px solid black;
+    grid-template-rows: 1fr 1fr;
+}
+
+.project-name {
+    margin: 10px 0px 10px 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid gray;
 }

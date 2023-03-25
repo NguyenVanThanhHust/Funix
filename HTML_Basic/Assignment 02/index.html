@@ -9,8 +9,10 @@
 	<title>Assignment 02</title>
 </head>
 <body>
-	<div class="big-grid-item" id="banner" style="padding: 50px">
-		<img src="./images/banner.jpg" height="180px" width="250px" alt="banner-image" style="width:100%;">
+	<div class="big-grid-item" id="banner-div" >
+		<center>
+			<img src="./images/banner.jpg" id="banner" alt="banner-image">
+		</center>
 		<div class="center-info">
 			<h1>Nguyễn Văn Thành</h1>
 			<span>Full Stack Developer</span>
@@ -20,16 +22,15 @@
 		<div class="grid-item"  id="navigation-bar">
 			<section id="nav-bar">
 				<nav class="container">
-					<a href="#nav-bar">Thông tin <i class="icon-user"></i></a>
-					<a href="#about">Lý lịch <i class="icon-doc-text-inv"></i></a>
-					<a href="#certificate">Chứng chỉ <td><i class="icon-mail-alt"></i></td></a>
-					<a href="#project">Dự Án <td><i class="icon-star-1"></i></td></a>
+					<a href="#nav-bar" class="reference">Thông tin <i class="icon-user"></i></a>
+					<a href="#about" class="reference">Lý lịch <i class="icon-doc-text-inv"></i></a>
+					<a href="#certificate" class="reference">Chứng chỉ <td><i class="icon-mail-alt"></i></td></a>
+					<a href="#project" class="reference">Dự Án <td><i class="icon-star-1"></i></td></a>
 				</nav>
 			</section>
 		</div>
-	
 		<div class="grid-item" id="basic-info">
-			<section id="about" class="bg-grey">
+			<section id="	" class="bg-grey">
 				<div class="sub-grid" id="target" >
 					<div id="target-text">
 						<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
@@ -90,7 +91,9 @@
 					<div style="margin-top: 20px">
 						<h1>Sở thích <td><i class="ic-telescope"></i></td></h1>
 						<div id="hobbies">
-							<td><i class="hobby ic-megaphone"></i></td>
+							<td><i class="hobby ic-megaphone">
+								Âm nhạc
+							</i></td>
 							<td><i class="hobby ic-strategy"></i></td>
 							<td><i class="hobby ic-hotairballoon"></i></td>
 							<td><i class="hobby ic-basket"></i></td>
@@ -215,13 +218,56 @@
 		<div class="grid-item" id="experience">
 			<section id="project">
 				<div class="container">
-					<h1 class="section-title">
+					<h1 class="project-section-title">
 						Dự án
 					</h1>
 				</div>
 			</section>
 			<div id="project-content">
-				
+				<div class="each-project">
+					<div class="top-project">
+						<img class="image-project" src="./images/banner.jpg">
+					</div>
+					<div class="project-base-info">
+						<div>
+							<h2 class="project-name"> CV cá nhân </h2>
+						</div>							
+					</div>
+					<div class="role-info">
+						some text in here too
+					</div>
+					<div class="project-description">
+						let's keep text for later
+					</div>
+				</div>
+				<div class="each-project">
+					<div class="top-project">
+						<img class="image-project" src="./images/banner.jpg">
+					</div>
+					<div class="project-base-info">
+						some other text in here
+					</div>
+					<div class="role-info">
+						some text in here too
+					</div>
+					<div class="project-description">
+						let's keep text for later
+					</div>
+				</div>
+				<div class="each-project">
+					<div class="top-project">
+						<img class="image-project" src="./images/banner.jpg">
+					</div>
+					<div class="project-base-info">
+						some other text in here
+					</div>
+					<div class="role-info">
+						some text in here too
+					</div>
+					<div class="project-description">
+						let's keep text for later
+					</div>
+				</div>
 			</div>
 		</div>
 	
